@@ -4,14 +4,9 @@
  */
 body {
   position: relative;
-  color: white;
+  color: #a0ebf9;
   height: 100vh;
-  background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
-  );
+  background: #272a37;
   font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
@@ -20,15 +15,15 @@ body {
 }
 
 button {
-  background-color: white;
+  background-color: #a0ebf9;
+  color: #272a37;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
   appearance: none;
+  font-weight: bold;
   font-size: 1.3rem;
-  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
-    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
-  transition: transform ease-in 0.1s;
+  transition: transform ease-in 0.3s;
   cursor: pointer;
 }
 
