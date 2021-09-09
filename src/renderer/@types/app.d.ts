@@ -1,7 +1,6 @@
 interface Todo {
   id: string;
   description: string;
-  completed: boolean;
 }
 
 interface TodoState {

@@ -3,7 +3,12 @@ import { Action } from '../actions';
 
 const initialState = {
   loading: false,
-  todoList: [],
+  todoList: [
+    {
+      id: '397125fa-5f2f-484c-babb-25c5c5b1e585',
+      description: 'Learn Electron',
+    },
+  ],
   error: null,
 };
 
